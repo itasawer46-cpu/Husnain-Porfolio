@@ -1,0 +1,10 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+body { @apply bg-bg text-white antialiased overflow-x-hidden; }
+.grad-text { @apply bg-gradient-to-r from-violet-500 via-green-500 to-cyan-400 bg-clip-text text-transparent; background-size: 200% 100%; animation: flow 5s linear infinite; }
+@keyframes flow { to { background-position: 200% 0; } }
+.btn { @apply relative inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 font-semibold transition-shadow; }
+.btn-p { @apply bg-gradient-to-r from-violet-600 to-green-500 text-white shadow-lg shadow-violet-600/30 hover:shadow-green-500/40; }
+.btn-s { @apply border border-line bg-card text-white hover:border-violet-500; }
+.card { @apply rounded-2xl border border-line bg-card p-5 sm:p-6 transition-colors hover:border-violet-500/70; }
+.sec { @apply mx-auto w-full max-w-6xl px-5 py-16 sm:py-24; }
