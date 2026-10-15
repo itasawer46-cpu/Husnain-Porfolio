@@ -56,5 +56,5 @@ export type Edu = { level: string; emoji: string; name: string; detail: string; 
 export const education: Edu[] = [
   { level: "School", emoji: "🏫", name: "Mustafai Science Model School", detail: "Secondary School", result: "Grade A+", color: "from-violet-600 to-cyan-500", image: "/education/school.jpg" },
   { level: "College", emoji: "📚", name: "Punjab College Phalia", detail: "Intermediate", result: "Grade A+", color: "from-green-500 to-cyan-500", image: "/education/college.jpg" },
-  { level: "University", emoji: "🎓", name: "University of Gujrat", detail: "Currently studying", result: "CGPA 3.73", outOf: "out of 4.00", score: 93.25, color: "from-violet-600 to-green-500", image: "/education/university.jpg" },
+  { level: "University", emoji: "🎓", name: "University of Gujrat", detail: "Currently studying", result: "CGPA 3.77", outOf: "out of 4.00", score: 93.25, color: "from-violet-600 to-green-500", image: "/education/university.jpg" },
 ];

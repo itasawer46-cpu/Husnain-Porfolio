@@ -6,7 +6,7 @@ import Counter from "@/components/Counter";
 import Education from "@/components/Education";
 import { info } from "@/lib/data";
 export const metadata = { title: "About | Husnain Ali" };
-const stats = [{ to: 7, suffix: "+", label: "Projects" }, { to: 11, suffix: "", label: "Technologies" }, { to: 3.73, decimals: 2, suffix: "", label: "CGPA" }];
+const stats = [{ to: 7, suffix: "+", label: "Projects" }, { to: 11, suffix: "", label: "Technologies" }, { to: 3.77, decimals: 2, suffix: "", label: "CGPA" }];
 const facts = [`📍 ${info.location}`, `🎓 ${info.university}`, "💻 Full Stack Developer", "🚀 Always learning"];
 export default function About() {
   return (
